@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "153385951678",
+    "firebase_url": "https://training-images-collection.firebaseio.com",
+    "project_id": "training-images-collection",
+    "storage_bucket": "training-images-collection.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153385951678:android:e3234267b4762499",
+        "android_client_info": {
+          "package_name": "com.example.lattoo.pushphoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153385951678-030731hhcj49d1sjchmbvdmgsuu3afu3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lattoo.pushphoto",
+            "certificate_hash": "5ea848ba280ef4a425d703a7f7baebe0807c17a3"
+          }
+        },
+        {
+          "client_id": "153385951678-ujug50d90c7p0ikuvaol0ujivric1ccd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlJ_8lrL_5y5La6AqTNQGsUiFd8yv1nvA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153385951678-ujug50d90c7p0ikuvaol0ujivric1ccd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

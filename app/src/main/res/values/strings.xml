@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">PushPhoto</string>
+    <string name="Layer_1">Layer 1</string>
+    <string name="Layer_2">Layer 2</string>
+    <string name="Layer_3">Layer 3</string>
+    <string name="Layer_4">Layer 4</string>
+    <string name="Layer_5">Layer 5</string>
+    <string name="Add_Layer1_Photos">Add Layer 1 Photo</string>
+    <string name="Add_Layer1_Samples">Add Layer 1 Samples</string>
+    <string name="Add_Layer2_Photos">Add Layer 2 Photo</string>
+    <string name="Add_Layer2_Samples">Add Layer 2 Samples</string>
+    <string name="Add_Layer3_Photos">Add Layer 3 Photo</string>
+    <string name="Add_Layer3_Samples">Add Layer 3 Samples</string>
+    <string name="Add_Layer4_Photos">Add Layer 4 Photo</string>
+    <string name="Add_Layer4_Samples">Add Layer 4 Samples</string>
+    <string name="Add_Layer5_Photos">Add Layer 5 Photo</string>
+    <string name="Add_Layer5_Samples">Add Layer 5 Samples</string>
+    <string name="label_FujiSample">Fuji Sample</string>
+    <string name="label_GalaSample">Gala Sample</string>
+    <string name="label_RedDeliciousSample">RedDelicious Sample</string>
+
+</resources>

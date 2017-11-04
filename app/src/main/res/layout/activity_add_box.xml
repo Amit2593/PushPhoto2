@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lattoo.pushphoto.AddBoxActivity">
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="245dp"
+        android:layout_marginLeft="18dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/boxImage"
+            android:layout_width="263dp"
+            android:layout_height="199dp"
+            app:srcCompat="@drawable/common_full_open_on_phone"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp" />
+
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:id="@+id/progressIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="67dp"
+            android:visibility="visible"
+            android:layout_alignTop="@+id/boxImage"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/PurchaseDate"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="302dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Purchase Date: "
+        android:textColor="#1279d1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/BoxName"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="61dp"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Box Name: "
+        android:textColor="#1279d1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enterprice"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint = "Enter Price/Box"
+        android:layout_marginLeft="61dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="354dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="236dp"
+        android:layout_marginTop="349dp"
+        android:text="SUBMIT"
+        android:onClick="submitPrice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="248dp"
+        android:layout_height="47dp"
+        android:layout_marginLeft="68dp"
+        android:layout_marginTop="434dp"
+        android:text="SKIP"
+        android:onClick="skipEnteringPrice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
